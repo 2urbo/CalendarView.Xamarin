@@ -14,6 +14,9 @@ Package is available on NuGet:
 Install-Package CalendarView.Xamarin.Android
 ```
 
+### Note
+If you have runtime issues, add the [Xamarin.Kotlin.StdLib](https://www.nuget.org/packages/Xamarin.Kotlin.StdLib) NuGet package to your Android project.
+
 ## Usage
 
 Please see [original CalendarView on GitHub](https://github.com/kizitonwose/CalendarView) for documentation.
