@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+
+    <add-node path="/api/package[@name='com.kizitonwose.calendarview.model']/class[@name='CalendarDay']">
+        <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="p0" type="java.lang.Object" />
+        </method>
+    </add-node>
+    
+    <add-node path="/api/package[@name='com.kizitonwose.calendarview.model']/class[@name='CalendarMonth']">
+        <method name="compareTo" return="int" abstract="false" native="false" synchronized="false" static="false" final="false" deprecated="not deprecated" visibility="public">
+            <parameter name="p0" type="java.lang.Object" />
+        </method>
+    </add-node>
+    
+    <remove-node path="/api/package[@name='com.kizitonwose.calendarview']/class[@name='BuildConfig']" />
+    
+    <remove-node path="/api/package[@name='com.kizitonwose.calendarview.model']/class[contains(@name,'.1')]" />
+    <remove-node path="/api/package[@name='com.kizitonwose.calendarview.model']/class[contains(@name,'.2')]" />
+    <remove-node path="/api/package[@name='com.kizitonwose.calendarview.model']/class[contains(@name,'WhenMappings')]" />
+    <remove-node path="/api/package[@name='com.kizitonwose.calendarview.ui']/class[contains(@name,'.1')]" />
+    <remove-node path="/api/package[@name='com.kizitonwose.calendarview.ui']/class[contains(@name,'CalendarSmoothScroller')]" />
+    
+</metadata>
