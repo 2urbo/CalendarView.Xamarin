@@ -1,6 +1,3 @@
-# CalendarView.Xamarin
-A Xamarin binding for CalendarView by Kizito Nwose
-
 # Xamarin Android binding library for CalendarView
 A Xamarin Android binding library for [CalendarView](https://github.com/kizitonwose/CalendarView) library.
 
